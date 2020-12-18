@@ -26,7 +26,7 @@ npm run build --report
 ```
 > 执行正常的话会看到以下结果  访问localhost:8080就能看到页面了 注意不能通过文件夹里的index.html访问 那个页面是个空白页
 
-![image](/1.png)
+![image]( https://raw.githubusercontent.com/BITCS-Information-Retrieval-2020/website-helloworld/master/1.PNG )
 >目前写了两个页面 一个首页、一个检索页
 
 ## 后续工作
@@ -39,9 +39,9 @@ npm run build --report
 >7. 后端需要用Django写接口
 ### 首页
 
-![image](/2.png)
+![image](https://raw.githubusercontent.com/BITCS-Information-Retrieval-2020/website-helloworld/master/2.PNG)
 
 ### 检索页
 > 
 
-![image](/3.png)
+![image](https://raw.githubusercontent.com/BITCS-Information-Retrieval-2020/website-helloworld/master/3.PNG)
