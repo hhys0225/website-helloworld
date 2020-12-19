@@ -29,19 +29,20 @@ npm run build --report
 ![image]( https://raw.githubusercontent.com/BITCS-Information-Retrieval-2020/website-helloworld/master/1.PNG )
 >目前写了两个页面 一个首页、一个检索页
 
-## 后续工作
->1. 具体的样式还需要再改,要改成统一的格式，以及展示还有bug要修复
->2. 检索页展示信息目前是简单的显示，后面还要加视频，图片之类
->3. 还差一个从搜索页跳转的某一个论文的具体页面 
->4. 以及这些页面之间的互相跳转
->5. 可能还需要写一个高级检索界面 根据论文题目之类的进行检索
->6. 目前展示的结果是通过文件写死的 后面要改成从接口动态获取
->7. 后端需要用Django写接口
+
 ### 首页
 
 ![image](https://raw.githubusercontent.com/BITCS-Information-Retrieval-2020/website-helloworld/master/2.PNG)
 
 ### 检索页
-> 
 
 ![image](https://raw.githubusercontent.com/BITCS-Information-Retrieval-2020/website-helloworld/master/3.PNG)
+
+## 后续工作
+>1. 具体的样式还需要再改,要改成统一的格式，以及展示还有bug要修复
+>2. 检索页展示信息目前是简单的显示，后面还要加视频，图片之类
+>3. 还需要写一个一个从搜索页跳转的某一个论文的具体页面 
+>4. 以及这些页面之间的互相跳转
+>5. 可能还需要写一个高级检索界面 根据论文题目之类的进行检索
+>6. 目前展示的结果是通过文件写死的 后面要改成从接口动态获取
+>7. 后端需要用Django写接口
