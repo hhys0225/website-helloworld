@@ -5,19 +5,18 @@
 > 前端需要学一下Vue.js 后端需要学一下Django 
 
 ## Build Setup
+
+``` bash
 1. 首先将项目clone到本地
 2. 需要安装nodejs （安装完成后会自动安装npm）直接到nodejs官网下载安装即可
-3. 
-``` bash
-cd 到文件目录 
-在该目录下安装依赖
+3. cd 到文件目录 在该目录下安装依赖
 # install dependencies
 npm install
-
+4.run
 # serve with hot reload at localhost:8080
 npm run dev
 
-下面两个命令暂时用不到，只运行上面两个就可以
+下面两个命令暂时用不到，只运行上面的命令就可以
 # build for production with minification
 npm run build
 
