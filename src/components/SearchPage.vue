@@ -10,7 +10,20 @@
             @click="returnIndexPage"
           />
         </div>
-        <el-col :span="10" style="margin-top: 10px">
+
+        <el-col :span="3" style="">
+          <el-menu
+            :default-active="activeIndex"
+            class="el-menu-demo"
+            mode="horizontal"
+            @select="handleSelect"
+          >
+            <el-menu-item index="1" @click="returnIndexPage">Home</el-menu-item>
+            <el-menu-item index="2">About</el-menu-item>
+          </el-menu>
+        </el-col>
+
+        <el-col :span="5" style="margin-top: 10px">
           <el-input
             id="searchInput"
             v-model="wd"
@@ -283,7 +296,6 @@ em {
   background-color: white;
 }
 .hc_logo {
-  width: 100px;
   float: left;
   margin-top: -7px;
   padding-left: 10px;
@@ -293,6 +305,33 @@ em {
   text-align: right;
   padding-top: 35px;
   font-size: 13px;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
 .hc_contentfooter {
   font-size: 13px;
