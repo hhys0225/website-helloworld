@@ -1,14 +1,11 @@
 <template>
   <div id="app">
-<!--    <img src="./assets/logo.png">-->
-<!--    <HelloWorld/>-->
-<!--    <router-link to="/main">首页</router-link>-->
-<!--    <router-link to="/content">内容页</router-link>-->
-<!--    <router-view></router-view>-->
+    <!--    <img src="./assets/logo.png">-->
+    <!--    <HelloWorld/>-->
+    <!--    <router-link to="/main">首页</router-link>-->
+    <!--    <router-link to="/content">内容页</router-link>-->
 
     <router-view></router-view>
-
-
   </div>
 </template>
 
@@ -17,16 +14,16 @@
 import Search from "./components/Search";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-     // HelloWorld,
-     // Search
-  }
-}
+    // HelloWorld,
+    // Search
+  },
+};
 </script>
 
 <style>
-#app{
-
+#app {
+  margin: 0px;
 }
 </style>
