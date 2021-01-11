@@ -24,6 +24,5 @@ export default {
 
 <style>
 #app {
-  margin: 0px;
 }
 </style>

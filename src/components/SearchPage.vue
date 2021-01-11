@@ -80,8 +80,8 @@
     </div>
 
     <div class="hc_footer">
-      <span>本搜索引擎仅供学习使用，不得非法使用 :免责声明</span><br />
-      <span>xxx</span>
+      <span>不得非法使用 :免责声明</span><br />
+      <span>@2021 展示小组3</span>
     </div>
 
     <div
@@ -122,6 +122,9 @@ export default {
   },
   created() {
     this.getHeight();
+  },
+  mounted: function () {
+    this.submitWd(); //需要触发的函数
   },
   methods: {
     getHeight() {
@@ -310,7 +313,7 @@ em {
   color: #666;
   padding-top: 10px;
   font-size: 13px;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0px;
   text-align: center;
 }
